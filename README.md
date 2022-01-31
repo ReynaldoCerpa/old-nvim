@@ -14,7 +14,7 @@ git clone git@github.com:ReynaldoCerpa/vimconf.git
 
 **3. Install vim-plug**
 
-*run the following command inside .config*
+run the following command inside .config
 ``` 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
