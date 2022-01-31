@@ -23,3 +23,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 after that, restart neovim (close and open again) and run `:PlugInstall`
 
 ![PlugInstall](https://raw.githubusercontent.com/junegunn/i/master/vim-plug/installer.gif)
+
+once its done installing all the plugins run: `:PlugUpdate`
