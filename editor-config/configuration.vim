@@ -12,6 +12,7 @@ hi LineNr ctermbg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 set tabstop=2
 set shiftwidth=2
+set timeoutlen=300
 let NERDTreeQuitOnOpen = 1
 let g:prettier#autoformat = 1
 let mapleader = " "
