@@ -6,6 +6,8 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
     call plug#begin('~/.config/nvim/autoload/plugged')
 
+		"Autosave plugin"
+		Plug 'Pocco81/AutoSave.nvim'
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
     "Treesitter"
