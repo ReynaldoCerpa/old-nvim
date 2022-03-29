@@ -49,8 +49,10 @@ endif
     Plug 'andymass/vim-matchup'
     " IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
-    " Colorscheme plugin"
-    Plug 'rose-pine/neovim'
+		" Go plugin "
+		Plug 'fatih/vim-go'
+		" Colorscheme plugin "
+    Plug 'tyrannicaltoucan/vim-deep-space'
     Plug 'sainnhe/gruvbox-material'
     Plug 'doums/darcula'
     Plug 'morhetz/gruvbox'

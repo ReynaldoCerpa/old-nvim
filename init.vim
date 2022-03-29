@@ -97,14 +97,22 @@ lua <<EOF
   require'lspconfig'.vimls.setup {
     capabilities = capabilities
  }
-  require'lspconfig'.hls.setup {
-    capabilities = capabilities
- }
  	require'lspconfig'.html.setup {
   	capabilities = capabilities,
  }
  require'lspconfig'.jsonls.setup {
   capabilities = capabilities,
  }
+ require('lspconfig').gopls.setup {
+    cmd = {"gopls", "serve"},
+    settings = {
+      gopls = {
+        analyses = {
+          unusedparams = true,
+        },
+        staticcheck = true,
+      },
+    },
+  }
 
 EOF

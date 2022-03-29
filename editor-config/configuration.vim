@@ -5,8 +5,8 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme rose-pine 
-let g:airline_theme= 'minimalist'
+colorscheme deep-space
+let g:airline_theme='deep_space'
 hi Normal ctermbg=NONE guibg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE

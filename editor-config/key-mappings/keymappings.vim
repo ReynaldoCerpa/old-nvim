@@ -22,7 +22,7 @@
     "Save"
     nmap <leader>s :w<CR>
     "Close window if possible"
-    nmap <leader>cw :q<CR>
+    nmap <leader>qw :q<CR>
     "Opens empty tab"
     nmap <leader>tt :tabnew<CR>
     "Update PlugIns"
