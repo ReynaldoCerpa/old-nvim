@@ -46,11 +46,11 @@ endif
     Plug 'junegunn/fzf.vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'andymass/vim-matchup'
-    " IndentLine for easier interpretation of code blocks"
+    "Plug 'andymass/vim-matchup'"
+		"IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
     " Colorscheme plugin"
-    Plug 'rose-pine/neovim'
+    Plug 'tyrannicaltoucan/vim-deep-space'
     Plug 'sainnhe/gruvbox-material'
     Plug 'doums/darcula'
     Plug 'morhetz/gruvbox'
