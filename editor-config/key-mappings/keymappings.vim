@@ -38,6 +38,7 @@
     "Substitut"
     nmap <leader>S :%s//g<left><left>
     nmap <leader>ccs :colorscheme<space>
+		nmap <leader>sa :%y+<CR>
 
    "Flutter run"
     nnoremap <leader>fa :FlutterRun<cr>
