@@ -56,10 +56,10 @@ Look for the needed language intellisense in the following repo:
 
 Every lang-server installation is different, but here are the ones used in this repo
 ```bash
-pip install pyright
+pip install pyright &&
 
 npm install -g typescript typescript-language-server \
- bash-language-server vim-language-server vscode-langservers-extracted
+ bash-language-server vim-language-server vscode-langservers-extracted &&
   
 sudo pacman -S gopls
 ```
