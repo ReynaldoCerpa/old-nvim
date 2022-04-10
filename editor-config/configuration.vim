@@ -14,6 +14,7 @@ set tabstop=2
 set shiftwidth=2
 set timeoutlen=300
 let NERDTreeQuitOnOpen = 1
+let NERDTreeShowHidden = 1
 let g:prettier#autoformat = 1
 let mapleader = " "
 let g:user_emmet_leader_key = ","
