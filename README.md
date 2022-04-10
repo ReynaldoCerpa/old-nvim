@@ -59,7 +59,8 @@ Every lang-server installation is different, but here are the ones used in this 
 pip install pyright &&
 
 npm install -g typescript typescript-language-server \
- bash-language-server vim-language-server vscode-langservers-extracted &&
+ bash-language-server vim-language-server vscode-langservers-extracted \ 
+ @tailwindcss/language-server &&
   
 sudo pacman -S gopls
 ```

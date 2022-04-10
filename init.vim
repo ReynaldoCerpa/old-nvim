@@ -103,6 +103,7 @@ lua <<EOF
  require'lspconfig'.jsonls.setup {
   capabilities = capabilities,
  }
+ require'lspconfig'.tailwindcss.setup {{}}
  require('lspconfig').gopls.setup {
     cmd = {"gopls", "serve"},
     settings = {
