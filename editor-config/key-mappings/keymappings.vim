@@ -2,6 +2,8 @@
    nnoremap H gT
    nnoremap L gt
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
+		"Deselect text"
+    nmap <leader>gd :noh <CR>
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files in directory"

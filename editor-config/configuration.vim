@@ -5,7 +5,7 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme deep-space
+colorscheme gruvbox
 let g:airline_theme='deep_space'
 hi Normal ctermbg=NONE guibg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
