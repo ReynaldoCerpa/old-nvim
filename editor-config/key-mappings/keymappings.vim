@@ -4,12 +4,12 @@
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
 		"Deselect text"
     nmap <leader>gd :noh <CR>
-   "Hides and shows NERDTree"
+   	"Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files in directory"
     nmap <leader>f :Telescope find_files<CR>
     "Search in lines of buffer"
-    nmap <leader>l :BLines<CR>
+    nmap <C-f> :BLines<CR>
     nmap <leader>fl :Rg!<CR>
     "Commits on branch"
     nmap <leader>c :BCommits<CR>
