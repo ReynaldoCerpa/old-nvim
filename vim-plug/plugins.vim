@@ -37,7 +37,7 @@ endif
     Plug 'ryanoasis/vim-devicons'
     "Nerd commenter"
     Plug 'preservim/nerdcommenter'
-    "Find differences in file with git repo"
+		"Find differences in file with git repo"
     Plug 'airblade/vim-gitgutter' 
     " fugitive to make git operations efficiently and painless"
     Plug 'tpope/vim-fugitive'

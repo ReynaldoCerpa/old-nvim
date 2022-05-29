@@ -115,5 +115,6 @@ lua <<EOF
       },
     },
   }
+	require'lspconfig'.csharp_ls.setup{}
 
 EOF
